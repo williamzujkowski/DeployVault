@@ -1,0 +1,19 @@
+# DeployVault live data and key material
+Vault/
+*.bin
+localvault.bin
+localseed.bin
+vault-*.bin
+seed-*.bin
+
+# Recovery, backup, lock, and transactional files
+*.bak
+*.lock
+*.tmp
+*.pre-restore
+*.rotation.bak
+
+# PowerShell transcripts and local test output
+PowerShell_transcript.*.txt
+*.clixml
+TestResults/
